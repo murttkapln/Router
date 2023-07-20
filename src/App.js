@@ -1,4 +1,4 @@
-import { Route, Routes, useParams, useSearchParams } from "react-router-dom"
+import { Route, Routes} from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Home from "./page/Home"
 import About from "./page/About"
@@ -9,7 +9,6 @@ import PersonDetail from "./page/PersonDetail"
 
 
 function App() {
-  let {id} = useSearchParams()
   return (
     <div className="text-center fw-bold">
         <Navbar/>
